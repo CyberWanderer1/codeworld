@@ -11,11 +11,6 @@ CYAN='\033[0;36m'
 WHITE='\033[1;37m'
 RESET='\033[0m' # Reset color
 
-# Print "CRYPTO CONSOLE" with vibrant colors
-echo -e "${CYAN}=============================="
-echo -e "       ${GREEN}CRYPTO CONSOLE${CYAN}        "
-echo -e "${CYAN}==============================${RESET}"
-
 # Display social details and channel information
 echo "==================================="
 echo -e "${BANNER}           CyberWanderer       ${NC}"
@@ -25,6 +20,17 @@ echo -e "${YELLOW}Twitter: @theanjum1${NC}"
 echo -e "${YELLOW}Medium: https://medium.com/@CyberWanderer${NC}"
 echo "==================================="
 # Your script code goes here
+# Print "CRYPTO CONSOLE" with vibrant colors
+echo -e "${CYAN}=============================="
+echo -e "       ${GREEN}CyberWanderer${CYAN}        "
+echo -e "${CYAN}==============================${RESET}"
+
+# Your script code goes here
+
+
+# Ask the user to follow on Twitter
+echo "Please follow us at: https://x.com/theanjum1"
+read -p "Have you followed us? (yes/no): " followed
 
 
 if [[ "$followed" != "yes" ]]; then
